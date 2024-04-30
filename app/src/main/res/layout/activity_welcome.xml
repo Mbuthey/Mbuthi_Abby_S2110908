@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dark">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="sans-serif"
+        android:gravity="start"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="Welcome"
+        android:textColor="@android:color/white"
+        android:textSize="42dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/searchCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWelcome"
+        android:layout_margin="8dp"
+        android:background="@drawable/background_textedit"
+        android:hint="Search for a Campus location"
+        android:padding="8dp"
+        android:textSize="16dp" />
+
+    <ListView
+        android:id="@+id/cityList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fabMap"
+        android:layout_below="@+id/searchCity"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabMap"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:contentDescription="Map"
+        android:src="@drawable/google_map" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="S2110908"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+</RelativeLayout>

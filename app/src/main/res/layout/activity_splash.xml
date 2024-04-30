@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_overlay"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aether Weather"
+            android:textSize="32sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:gravity="start"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Get Started"
+            android:textSize="16dp"
+            android:background="@drawable/button_bg"
+            android:layout_margin="16dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S2110908"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

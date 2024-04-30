@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape with gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#1C232B"
+                android:endColor="#1C232B1A"
+                android:angle="90"/>
+        </shape>
+    </item>
+    <!-- Image overlay -->
+    <item>
+        <bitmap
+            android:src="@drawable/cloud_picture"
+            android:gravity="center"/>
+    </item>
+</layer-list>

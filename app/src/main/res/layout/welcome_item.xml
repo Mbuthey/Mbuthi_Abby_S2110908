@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="New York"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="150dp"> &lt;!&ndash; Set the desired height here &ndash;&gt;-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/bg_weather_item" /> &lt;!&ndash; Replace with your image resource &ndash;&gt;-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="16dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txtLocation"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:text="Pamplemousses"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:textSize="24sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txtTime"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:text="9:11PM"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:textStyle="normal" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txtWeatherCondition"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="16dp"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:text="Partly Cloudy"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:textStyle="normal" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="16dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txtTemperature"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:text="28°C"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:textSize="42sp"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/txtMinMaxTemperature"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:text="H: 29° L: 24°"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:textSize="16sp" />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </RelativeLayout>-->
+
+<!--    </FrameLayout>-->
+
+</androidx.cardview.widget.CardView>
